@@ -1,0 +1,15 @@
+unit acredisclient.interfaces;
+
+interface
+
+type
+  IConnection = interface
+    ['{2EDC3E5A-DDE5-46D9-98B9-4C03883BCDDE}']
+    function Host(Value: String): IConnection;
+    function Port(Value: Integer): IConnection;
+    procedure Connect;
+  end;
+
+implementation
+
+end.

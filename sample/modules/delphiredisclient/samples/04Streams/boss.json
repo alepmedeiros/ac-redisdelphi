@@ -1,0 +1,12 @@
+{
+	"name": "04Streams",
+	"description": "",
+	"version": "1.0.0",
+	"homepage": "",
+	"mainsrc": "./src",
+	"projects": [],
+	"dependencies": {
+		"https://github.com/danieleteti/delphiredisclient": "^v2.2",
+		"https://github.com/danieleteti/loggerpro": "^v1.3.2"
+	}
+}

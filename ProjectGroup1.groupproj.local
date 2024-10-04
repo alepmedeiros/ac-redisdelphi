@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2024/05/16 17:15:13.000.007,C:\Users\aleme\Documents\Embarcadero\Studio\Projects\ProjectGroup1.groupproj=C:\repositorio\ac-redisdelphi\ProjectGroup1.groupproj</Transaction>
+  </Transactions>
+	<Default.Personality>
+		<Projects ActiveProject="C:\repositorio\ac-redisdelphi\sample\sampleredis.dproj"/>
+	</Default.Personality>
+</BorlandProject>

@@ -1,0 +1,27 @@
+unit acredisclient.interfaces;
+
+interface
+
+uses
+  Redis.Commons;
+
+type
+  IConnection<T: IInterface> = interface
+    ['{2EDC3E5A-DDE5-46D9-98B9-4C03883BCDDE}']
+    function Host(Value: String): IConnection<T>;
+    function Port(Value: Integer): IConnection<T>;
+    function Connect: IRedisClient;
+    function &End: T;
+  end;
+
+  IRedis = interface
+    ['{163C34B6-5413-4D15-A31B-6BE32C1C8B65}']
+    function Connection: IConnection<IRedis>;
+    function Key(Value: String): IRedis;
+    function Valor(Value: String): IRedis; overload;
+    function Valor: String; overload;
+  end;
+
+implementation
+
+end.

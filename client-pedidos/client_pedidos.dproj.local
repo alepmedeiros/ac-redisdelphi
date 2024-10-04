@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2023/02/27 16:31:28.000.655,=C:\Users\Modesto\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/02/27 18:12:11.000.415,=C:\Users\Modesto\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/02/27 18:27:07.000.008,=C:\Users\Modesto\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/03/10 23:05:51.000.204,=C:\Users\Modesto\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/06/26 15:02:39.000.217,=C:\Users\Modesto\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/06/30 10:20:51.000.380,=C:\Users\Modesto\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/07/13 09:33:30.000.932,=C:\Users\Modesto\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/07/26 11:16:38.000.162,=C:\Users\Modesto\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/08/01 09:37:40.000.596,=C:\Users\Modesto\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/08/04 18:24:39.000.564,=G:\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/08/06 11:21:28.000.545,=G:\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/08/15 20:57:52.000.728,=G:\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/08/28 17:30:26.000.014,=G:\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/09/22 18:52:19.000.593,=G:\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/10/14 10:41:05.000.069,=G:\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/10/14 10:48:44.000.883,E:\Projects\academia-do-codigo\workshop-2023-09-30\client-pedidos\src\views\View.Main.pas=G:\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/10/14 10:48:44.000.883,E:\Projects\academia-do-codigo\workshop-2023-09-30\client-pedidos\src\views\View.Main.fmx=G:\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.fmx</Transaction>
+    <Transaction>2023/10/14 10:48:53.000.193,E:\Projects\academia-do-codigo\workshop-2023-09-30\client-pedidos\client_pedidos.dproj=G:\OneDrive\Documentos\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2023/10/14 10:49:38.000.591,=E:\Projects\academia-do-codigo\workshop-2023-09-30\client-pedidos\src\client-sent-event\clients\Client.NetHTTP.HTTPClientEvent.pas</Transaction>
+    <Transaction>2023/10/14 10:49:47.000.246,=E:\Projects\academia-do-codigo\workshop-2023-09-30\client-pedidos\src\client-sent-event\contracts\Contract.HTTPClientEvent.pas</Transaction>
+    <Transaction>2023/10/14 10:49:47.000.319,=E:\Projects\academia-do-codigo\workshop-2023-09-30\client-pedidos\src\client-sent-event\contracts\Contract.HTTPEventData.pas</Transaction>
+    <Transaction>2023/10/14 10:50:00.000.567,=E:\Projects\academia-do-codigo\workshop-2023-09-30\client-pedidos\src\client-sent-event\events\Event.HTTPEventData.pas</Transaction>
+    <Transaction>2023/10/14 10:50:10.000.204,=E:\Projects\academia-do-codigo\workshop-2023-09-30\client-pedidos\src\client-sent-event\parsers\Parser.ContentString.pas</Transaction>
+    <Transaction>2023/10/14 10:50:21.000.710,=E:\Projects\academia-do-codigo\workshop-2023-09-30\client-pedidos\src\client-sent-event\types\Callback.ReceiveEventData.pas</Transaction>
+    <Transaction>2023/10/14 10:50:21.000.800,=E:\Projects\academia-do-codigo\workshop-2023-09-30\client-pedidos\src\client-sent-event\types\Struct.Pair.pas</Transaction>
+  </Transactions>
+</BorlandProject>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2024/05/16 16:44:34.000.520,=C:\Users\aleme\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/05/16 16:44:40.000.624,C:\Users\aleme\Documents\Embarcadero\Studio\Projects\sampleredis.dproj=C:\Users\aleme\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2024/05/16 16:45:05.000.748,C:\repositorio\ac-redisdelphi\sample\Unit1.dfm=C:\Users\aleme\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2024/05/16 16:45:05.000.748,C:\repositorio\ac-redisdelphi\sample\Unit1.pas=C:\Users\aleme\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/05/16 16:45:07.000.723,C:\repositorio\ac-redisdelphi\sample\sampleredis.dproj=C:\Users\aleme\Documents\Embarcadero\Studio\Projects\sampleredis.dproj</Transaction>
+    <Transaction>2024/05/16 16:45:37.000.198,=C:\repositorio\ac-redisdelphi\sample\Unit2.pas</Transaction>
+    <Transaction>2024/05/16 17:17:09.000.586,=C:\repositorio\ac-redisdelphi\src\acredisclient.interfaces.pas</Transaction>
+    <Transaction>2024/05/16 17:19:18.000.160,=C:\repositorio\ac-redisdelphi\sample\Unit2.pas</Transaction>
+    <Transaction>2024/05/16 17:24:15.000.508,C:\repositorio\ac-redisdelphi\src\acredisclient.connection.pas=C:\repositorio\ac-redisdelphi\sample\Unit2.pas</Transaction>
+    <Transaction>2024/05/17 10:14:07.000.728,=C:\repositorio\ac-redisdelphi\sample\Unit2.pas</Transaction>
+    <Transaction>2024/05/17 10:27:30.000.163,C:\repositorio\ac-redisdelphi\sample\Unit2.pas=C:\repositorio\ac-redisdelphi\src\acredisclient.redis.pas</Transaction>
+    <Transaction>2024/05/17 10:29:58.000.949,=C:\repositorio\ac-redisdelphi\sample\Unit2.pas</Transaction>
+    <Transaction>2024/05/17 10:34:19.000.663,C:\repositorio\ac-redisdelphi\sample\Unit2.pas=C:\repositorio\ac-redisdelphi\src\acredisclient.redisfactory.pas</Transaction>
+  </Transactions>
+</BorlandProject>

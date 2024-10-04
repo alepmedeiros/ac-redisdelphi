@@ -1,0 +1,144 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{926F3CC6-4EA4-4D72-B514-C6236F920BB8}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="sample\sampleredis.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="sample\modules\delphiredisclient\samples\99FireMonkeySample\FMXSample.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="sample\modules\delphiredisclient\samples\01CmdsSample\CmdsSample.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="sample\modules\delphiredisclient\samples\02JobQueue\TheWorker.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="sample\modules\delphiredisclient\samples\02JobQueue\TheApplication.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="sample\modules\delphiredisclient\samples\03PubSub\Chat.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="sample\modules\delphiredisclient\samples\04Streams\StreamSamples.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="sample\modules\delphiredisclient\samples\10CacheForClientServerSystems\CachedQueries.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="api-pedidos\api_pedidos.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="client-pedidos\client_pedidos.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="sampleredis">
+        <MSBuild Projects="sample\sampleredis.dproj"/>
+    </Target>
+    <Target Name="sampleredis:Clean">
+        <MSBuild Projects="sample\sampleredis.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="sampleredis:Make">
+        <MSBuild Projects="sample\sampleredis.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="FMXSample">
+        <MSBuild Projects="sample\modules\delphiredisclient\samples\99FireMonkeySample\FMXSample.dproj"/>
+    </Target>
+    <Target Name="FMXSample:Clean">
+        <MSBuild Projects="sample\modules\delphiredisclient\samples\99FireMonkeySample\FMXSample.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="FMXSample:Make">
+        <MSBuild Projects="sample\modules\delphiredisclient\samples\99FireMonkeySample\FMXSample.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="CmdsSample">
+        <MSBuild Projects="sample\modules\delphiredisclient\samples\01CmdsSample\CmdsSample.dproj"/>
+    </Target>
+    <Target Name="CmdsSample:Clean">
+        <MSBuild Projects="sample\modules\delphiredisclient\samples\01CmdsSample\CmdsSample.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="CmdsSample:Make">
+        <MSBuild Projects="sample\modules\delphiredisclient\samples\01CmdsSample\CmdsSample.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="TheWorker">
+        <MSBuild Projects="sample\modules\delphiredisclient\samples\02JobQueue\TheWorker.dproj"/>
+    </Target>
+    <Target Name="TheWorker:Clean">
+        <MSBuild Projects="sample\modules\delphiredisclient\samples\02JobQueue\TheWorker.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="TheWorker:Make">
+        <MSBuild Projects="sample\modules\delphiredisclient\samples\02JobQueue\TheWorker.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="TheApplication">
+        <MSBuild Projects="sample\modules\delphiredisclient\samples\02JobQueue\TheApplication.dproj"/>
+    </Target>
+    <Target Name="TheApplication:Clean">
+        <MSBuild Projects="sample\modules\delphiredisclient\samples\02JobQueue\TheApplication.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="TheApplication:Make">
+        <MSBuild Projects="sample\modules\delphiredisclient\samples\02JobQueue\TheApplication.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Chat">
+        <MSBuild Projects="sample\modules\delphiredisclient\samples\03PubSub\Chat.dproj"/>
+    </Target>
+    <Target Name="Chat:Clean">
+        <MSBuild Projects="sample\modules\delphiredisclient\samples\03PubSub\Chat.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Chat:Make">
+        <MSBuild Projects="sample\modules\delphiredisclient\samples\03PubSub\Chat.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="StreamSamples">
+        <MSBuild Projects="sample\modules\delphiredisclient\samples\04Streams\StreamSamples.dproj"/>
+    </Target>
+    <Target Name="StreamSamples:Clean">
+        <MSBuild Projects="sample\modules\delphiredisclient\samples\04Streams\StreamSamples.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="StreamSamples:Make">
+        <MSBuild Projects="sample\modules\delphiredisclient\samples\04Streams\StreamSamples.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="CachedQueries">
+        <MSBuild Projects="sample\modules\delphiredisclient\samples\10CacheForClientServerSystems\CachedQueries.dproj"/>
+    </Target>
+    <Target Name="CachedQueries:Clean">
+        <MSBuild Projects="sample\modules\delphiredisclient\samples\10CacheForClientServerSystems\CachedQueries.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="CachedQueries:Make">
+        <MSBuild Projects="sample\modules\delphiredisclient\samples\10CacheForClientServerSystems\CachedQueries.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="api_pedidos">
+        <MSBuild Projects="api-pedidos\api_pedidos.dproj"/>
+    </Target>
+    <Target Name="api_pedidos:Clean">
+        <MSBuild Projects="api-pedidos\api_pedidos.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="api_pedidos:Make">
+        <MSBuild Projects="api-pedidos\api_pedidos.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="client_pedidos">
+        <MSBuild Projects="client-pedidos\client_pedidos.dproj"/>
+    </Target>
+    <Target Name="client_pedidos:Clean">
+        <MSBuild Projects="client-pedidos\client_pedidos.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="client_pedidos:Make">
+        <MSBuild Projects="client-pedidos\client_pedidos.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="sampleredis;FMXSample;CmdsSample;TheWorker;TheApplication;Chat;StreamSamples;CachedQueries;api_pedidos;client_pedidos"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="sampleredis:Clean;FMXSample:Clean;CmdsSample:Clean;TheWorker:Clean;TheApplication:Clean;Chat:Clean;StreamSamples:Clean;CachedQueries:Clean;api_pedidos:Clean;client_pedidos:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="sampleredis:Make;FMXSample:Make;CmdsSample:Make;TheWorker:Make;TheApplication:Make;Chat:Make;StreamSamples:Make;CachedQueries:Make;api_pedidos:Make;client_pedidos:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

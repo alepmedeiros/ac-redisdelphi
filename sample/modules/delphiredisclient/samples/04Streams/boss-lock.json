@@ -1,0 +1,22 @@
+{
+	"hash": "d41d8cd98f00b204e9800998ecf8427e",
+	"updated": "2024-05-16T17:01:28.4222116-03:00",
+	"installedModules": {
+		"https://github.com/danieleteti/delphiredisclient": {
+			"name": "delphiredisclient",
+			"version": "v2.2",
+			"hash": "d56fa90792fa7f255deac3872c2ef839",
+			"artifacts": {},
+			"failed": false,
+			"changed": false
+		},
+		"https://github.com/danieleteti/loggerpro": {
+			"name": "loggerpro",
+			"version": "v1.3.2",
+			"hash": "10f641416ba6d56365ebbffebd6a9ef0",
+			"artifacts": {},
+			"failed": false,
+			"changed": false
+		}
+	}
+}
